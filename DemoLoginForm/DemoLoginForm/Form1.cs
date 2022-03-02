@@ -16,5 +16,15 @@ namespace DemoLoginForm
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string userName = txtUserName.Text;
+            string passWord = txtPassword.Text;
+            if (userName == "admin" && passWord == "admin"){
+                MessageBox.Show("Successful");
+            }
+
+        }
     }
 }
