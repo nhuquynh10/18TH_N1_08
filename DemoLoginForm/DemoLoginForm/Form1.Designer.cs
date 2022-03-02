@@ -42,9 +42,13 @@ namespace DemoLoginForm
             this.label1.Location = new System.Drawing.Point(208, 64);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
+<<<<<<< .mine
             this.label1.Size = new System.Drawing.Size(83, 17);
+=======
+            this.label1.Size = new System.Drawing.Size(63, 13);
+>>>>>>> .theirs
             this.label1.TabIndex = 0;
-            this.label1.Text = "UserName2";
+            this.label1.Text = "UserName1";
             // 
             // txtUserName
             // 
@@ -68,8 +72,12 @@ namespace DemoLoginForm
             this.label2.Location = new System.Drawing.Point(208, 132);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
+<<<<<<< .mine
             this.label2.Size = new System.Drawing.Size(77, 17);
-            this.label2.TabIndex = 2;
+=======
+            this.label2.Size = new System.Drawing.Size(59, 13);
+>>>>>>> .theirs
+            
             this.label2.Text = "Password2";
             // 
             // button1
